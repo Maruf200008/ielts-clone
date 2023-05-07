@@ -1,5 +1,5 @@
 import "./App.css";
-import { CTAVideo, FindOut, Hero, IconBlog, Navbar } from "./components";
+import { CTAVideo, FindOut, Hero, IconBlog, Migrition, Navbar } from "./components";
 
 export default function App() {
   return (
@@ -9,6 +9,7 @@ export default function App() {
       <CTAVideo/>
       <IconBlog/>
       <FindOut/>
+      <Migrition/>
     </>
   );
 }

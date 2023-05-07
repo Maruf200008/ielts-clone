@@ -1,91 +1,71 @@
 import React from "react";
-// Import Swiper React components
 
-// Import Swiper styles
-import "swiper/css";
-
-// import required modules
+import { FaArrowRight } from "react-icons/fa";
 
 const FindOut = () => {
   return (
     <div className=" max-w-[500px] md:max-w-[1240px] w-full mx-auto h-full py-10">
-      <div className=" flex  gap-x-8 justify-center items-center">
-        <div className=" bg-white shadow-lg rounded-lg max-w-[250px] max-h-[550px]">
+      <div className="  grid grid-cols-2 md:grid-cols-4 gap-x-7 gap-y-7 md:gap-x-12">
+        <div className=" bg-white shadow-lg flex-1 rounded-md">
           <img
-            className=" rounded-lg"
             src="https://www.ielts.org/-/media/images/resources/01_ielts_ns_4_0893.ashx?iar=0&hash=C6AE0717D67FCFD165A22A952B69F4FC"
             alt=""
+            className=" rounded-md"
           />
-          <div className=" px-4 py-3">
-            <h2 className=" text-xl font-bold text-gray-600">
+          <div className=" p-3">
+            <h2 className=" text-2xl font-bold">
               Ensuring quality and fairness
             </h2>
-            <p className="mb-5 text-[16px] mt-4 ">
+            <p>
               An overview of some of the key features of IELTS and how they
-              contribute to reliable, relevant and fair language assessment
+              contribute to reliable, relevant and fair language assessment.
             </p>
-            <a href="#" className="font-semibold text-lg text-prigaryRed">
+            <a href="#" className=" text-xl font-bold text-prigaryRed">
               Ensuring quality and fairness
             </a>
           </div>
         </div>
-        <div className=" bg-white shadow-lg rounded-lg max-w-[250px] max-h-[500px]">
+        <div className=" bg-white shadow-lg flex-1 rounded-md">
           <img
-            className=" rounded-lg"
             src="https://www.ielts.org/-/media/content-blocks/01_ielts_ns_3_0658.ashx?iar=0&hash=C94FBDD3874BDCF059D636702D513399"
             alt=""
+            className=" rounded-md"
           />
-          <div className=" px-4 py-3">
-            <h2 className=" text-xl font-bold text-gray-600">
-              Ensuring quality and fairness
-            </h2>
-            <p className="mb-5 text-[16px] mt-4 ">
+          <div className=" p-3">
+            <h2 className=" text-2xl font-bold">IELTS assessment criteria</h2>
+            <p>
               Learn more about how IELTS is scored and download the band
               descriptors which describe written and spoken performance at each
               of the nine IELTS bands.
             </p>
-            <a href="#" className="font-semibold text-lg text-prigaryRed">
+            <a href="#" className=" text-xl font-bold text-prigaryRed">
               Ensuring quality and fairness
             </a>
           </div>
         </div>
-
-        <div className=" bg-white shadow-lg rounded-lg max-w-[250px]">
+        <div className=" bg-white shadow-lg flex-1 rounded-md">
           <img
-            className=" rounded-lg"
-            src="https://www.ielts.org/-/media/images/resources/01_ielts_ns_4_0893.ashx?iar=0&hash=C6AE0717D67FCFD165A22A952B69F4FC"
+            src="https://www.ielts.org/-/media/images/resources/test-preparation.ashx?iar=0&hash=191467D1601897E0C7703B0FCBD94EF7"
             alt=""
+            className=" rounded-md"
           />
-          <div className=" px-4 py-3">
-            <h2 className=" text-xl font-bold text-gray-600">
-              Ensuring quality and fairness
-            </h2>
-            <p className="mb-5 text-[16px] mt-4 ">
+          <div className=" p-3">
+            <h2 className=" text-2xl font-bold">Prepare for the test</h2>
+            <p className=" mb-16">
               An overview of some of the key features of IELTS and how they
-              contribute to reliable, relevant and fair language assessment
+              contribute to reliable, relevant and fair language assessment.
             </p>
-            <a href="#" className="font-semibold text-lg text-prigaryRed">
-              Ensuring quality and fairness
+            <a href="#" className=" text-xl font-bold text-prigaryRed ">
+              How to prepare
             </a>
           </div>
         </div>
-        <div className=" bg-white shadow-lg rounded-lg max-w-[250px]">
-          <img
-            className=" rounded-lg"
-            src="https://www.ielts.org/-/media/images/resources/01_ielts_ns_4_0893.ashx?iar=0&hash=C6AE0717D67FCFD165A22A952B69F4FC"
-            alt=""
-          />
-          <div className=" px-4 py-3">
-            <h2 className=" text-xl font-bold text-gray-600">
-              Ensuring quality and fairness
+        <div className=" bg-[#2d2d2d] shadow-lg flex-1 rounded-md">
+          <div className=" p-3 ">
+            <h2 className=" text-4xl font-bold mt-36 text-white  ">
+              Find out <br /> more about IELTS
             </h2>
-            <p className="mb-5 text-[16px] mt-4 ">
-              An overview of some of the key features of IELTS and how they
-              contribute to reliable, relevant and fair language assessment
-            </p>
-            <a href="#" className="font-semibold text-lg text-prigaryRed">
-              Ensuring quality and fairness
-            </a>
+            <FaArrowRight size={35} className=" mt-4 text-prigaryRed" />
           </div>
         </div>
       </div>
